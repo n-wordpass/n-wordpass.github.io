@@ -1,0 +1,50 @@
+.title{
+    text-align: center;
+    animation: ofo 100ms infinite;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    animation: oof 100ms infinite;
+}
+
+body{
+    background: linear-gradient(45deg, green,blue,red, yellow, green);
+}
+
+.nyam{
+    animation: ppe 250ms linear infinite;
+}
+
+@keyframes oof{
+    to{
+        transform: rotate(36000000deg);
+    }
+}
+
+@keyframes ofo{
+    to{
+        transform: rotate3d(0,1,0,36000000deg);
+    }
+}
+
+@keyframes foo{
+    to{
+        transform: rotate(-36000000deg);
+    }
+}
+
+@keyframes ppe{
+    0% {
+        transform: translateX(0px);
+    } 25% {
+        transform: translateX(100px);
+    } 50% {
+        transform: translateX(800px);
+    } 75% {
+        transform: translateX(100px);
+    } 100% {
+        transform: translateX(0px);
+    }
+}
