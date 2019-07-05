@@ -9,6 +9,12 @@
     animation: oof 100ms infinite;
 }
 
+.logo2{
+    width: 100px;
+    height: 100px;
+    animation: foo 100ms infinite;
+}
+
 body{
     background: linear-gradient(45deg, green,blue,red, yellow, green);
 }
